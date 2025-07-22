@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissor | Game</title>
+  </head>
+  <body>
+    <div class="game-head">
+      <h1>Rock Paper Scissor</h1>
+    </div>
+    <div class="outer-container">
+      <div class="inner-container">
+        <div class="msg-container">
+          <div class="msg hide">
+            <p>Congratulations!</p>
+          </div>
+        </div>
+        <div class="user-choice">
+          <div class="box" id="rock">
+            <img src="Images/rock.png" class="box-img" alt="rock" />
+          </div>
+          <div class="box" id="paper">
+            <img src="Images/paper.png" class="box-img" alt="paper" />
+          </div>
+          <div class="box" id="scissor">
+            <img src="Images/scissors.png" class="box-img" alt="scissor" />
+          </div>
+        </div>
+        <div class="scorecard">
+          <div class="score">
+            <div class="score-text">Win:</div>
+            <div id="win-score">0</div>
+          </div>
+          <div class="score">
+            <div class="score-text">Loss:</div>
+            <div id="loss-score">0</div>
+          </div>
+          <div class="score">
+            <div class="score-text">Draw:</div>
+            <div id="draw-score">0</div>
+          </div>
+          <div class="score">
+            <div class="score-text">Total:</div>
+            <div id="total-score">0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
